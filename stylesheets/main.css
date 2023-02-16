@@ -1,4 +1,76 @@
-main {
+.principal--secao {
+    width: 75%;
+    margin: 0 auto;
+    padding: 4rem 0 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artigo--video {
+    width: 60%;
+}
+
+.principal--titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.principal--texto {
+    margin: 1rem 0;
+    color: var(--cinza-texto);
+}
+
+/* Formulário */
+
+.artigo--form {
+    width: 40%;
+    background-color: #FFFFFF;
+    padding: 2rem 1rem;
+}
+
+.form--titulo {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.form--subtitulo {
+    margin: 1rem 0;
+    color: var(--cinza-texto);
+}
+
+.contato--form label {
+    display: none;
+}
+
+.contato--form input {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    margin: 1rem 0;
+    border: 1px solid #9c9c9c;
+    border-radius: 5px;
+}
+
+.contato--form input::placeholder {
+    padding: 1rem;
     background-color: var(--cor-fundo);
-    height: 100vh;
+}
+
+.input--submit {
+    background-color: var(--cor-botao);
+    color: #FFFFFF;
+}
+
+.form--texto {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: var(--cinza-texto);
+}
+
+/* Rodapé */
+
+footer {
+    color: var(--cinza-texto);
+    width: 75%;
+    margin: 0 auto;
 }

@@ -3,12 +3,13 @@
 
 :root {
     --fonte-principal: 'Roboto', sans-serif;
-    --cinza-texto: #CCCCCC;
-    --cor-botao: #22aa4f;
-    --cor-fundo: #DDDDDD;
+    --cinza-texto: #aaaaaa;
+    --cor-botao: #15833a;
+    --cor-fundo: #EEEEEE;
 }
 
 body {
+    background-color: var(--cor-fundo);
     font-family: var(--fonte-principal);
     font-size: 16px;
 }
