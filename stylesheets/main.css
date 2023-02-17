@@ -44,21 +44,23 @@
 
 .contato--form input {
     display: block;
-    width: 100%;
+    width: 95%;
     height: 2.5rem;
     margin: 1rem 0;
+    padding: 0.2rem 0 0.2rem 1rem;
     border: 1px solid #9c9c9c;
     border-radius: 5px;
+    background-color: #dddddd;
 }
 
-.contato--form input::placeholder {
-    padding: 1rem;
-    background-color: var(--cor-fundo);
-}
-
-.input--submit {
+.contato--form .botao--submit {
+    width: 100%;
     background-color: var(--cor-botao);
     color: #FFFFFF;
+}
+
+.botao--submit:hover {
+    cursor: pointer;
 }
 
 .form--texto {
@@ -73,4 +75,5 @@ footer {
     color: var(--cinza-texto);
     width: 75%;
     margin: 0 auto;
+    padding-bottom: 2rem;
 }
